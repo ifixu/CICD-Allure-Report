@@ -120,6 +120,6 @@ class TestSmoke:
 			assert_valid_query = len(results) > 0
 			ts.set_status('passed' if assert_valid_query else 'failed')
 			assert assert_valid_query
-		except e:
+		except:
 			ts.set_status('failed')
 			assert False

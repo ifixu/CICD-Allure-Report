@@ -2,3 +2,9 @@ name: CD Pipeline
 on:
   push:
     branches: [ "master" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: mokk szar
+        run: ls

@@ -1,0 +1,6 @@
+{
+    "name": "Login funkcio tesztelese",
+    "description": "A Hootel oldal bejelentkezo funkciojanak feluleti tesztelese",
+    "folder": "/tests/",
+    "testCases": []
+}

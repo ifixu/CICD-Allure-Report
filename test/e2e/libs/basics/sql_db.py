@@ -2,7 +2,7 @@ import json
 import os
 import mysql
 
-from mysql.connector import connect
+from mysql.connector import connect, errorcode
 
 def read_sql_json():
 	current_dir = os.path.dirname(os.path.abspath(__file__))
